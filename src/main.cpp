@@ -196,4 +196,7 @@ int main() {
  * C:\Users\d.gusev\Documents\Project\NN>g++ -std=c++17 -Wall -Wextra -Wpedantic -Iinc -c src/SymbolicRegression.cpp -o build/SymbolicRegression.o
  * C:\Users\d.gusev\Documents\Project\NN>g++ -std=c++17 -Wall -Wextra -Wpedantic -Iinc -c src/main.cpp -o build/main.o
  * C:\Users\d.gusev\Documents\Project\NN>g++ build/main.o build/BaseData.o build/Markov.o build/Net.o build/SymbolicRegression.o -o build/main
+ * 
+ * C:\Users\d.gusev\Documents\Project\NN>g++ -std=c++17 -Wall -Wextra -Wpedantic -Iinc -c tests/test_key_validation.cpp -o build/test_key_validation.o
+ * C:\Users\d.gusev\Documents\Project\NN>g++ build/BaseData.o build/test_key_validation.o -o build/test_key_validation
  */
